@@ -1,0 +1,30 @@
+{
+  "name": "ptd-import",
+  "version": "0.0.0",
+  "description": "Scripts to import data into the Preference Terms Dictionary.",
+  "main": "",
+  "scripts": {
+    "test": "src/tests/all-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-t-in-rtf/gpii-express"
+  },
+  "author": "Tony Atkins <tony@raisingthefloor.org>",
+  "license": "See LICENSE file for details.",
+  "homepage": "https://github.com/the-t-in-rtf/ptd-import",
+  "dependencies": {
+    "cradle":         "~0.6.6",
+    "csv":            "~0.3.6",
+    "optimist":       "~0.6.0",
+    "promised-couch": "~0.1.2",
+    "q":              "~0.9.7"
+  },
+    "devDependencies": {
+      "grunt":                "~0.4.4",
+      "grunt-shell":          "0.6.4",
+      "grunt-contrib-jshint": "~0.9.0",
+      "grunt-jsonlint":       "1.0.4",
+      "grunt-gpii":           "git://github.com/GPII/grunt-gpii.git#58ae055833f437a9e91baedb9f39a22c5fdd727f"
+  }
+}
